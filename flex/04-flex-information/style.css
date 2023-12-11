@@ -10,7 +10,28 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
+.wrapper{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+.wrapper > div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  flex-basis: 200px;
+}
+.wrapper > .first{
+  margin-left: 52px;
+}
+.wrapper > .last{
+  margin-right: 52px;
+}
+
 
 /* do not edit this footer */
 .footer {
