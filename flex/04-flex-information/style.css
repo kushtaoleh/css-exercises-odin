@@ -25,13 +25,6 @@ img {
   align-items: center;
   flex-basis: 200px;
 }
-.wrapper > .first{
-  margin-left: 52px;
-}
-.wrapper > .last{
-  margin-right: 52px;
-}
-
 
 /* do not edit this footer */
 .footer {
