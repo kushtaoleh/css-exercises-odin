@@ -24,6 +24,7 @@ a{
   font-weight: 900;
   font-size: 32px;
   align-items: center;
+  padding: 5px;
 }
 .sidebar {
   width: 300px;
@@ -51,12 +52,12 @@ a{
 .cards_wrapper{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
   padding: 32px
 }
 .cards_wrapper > .card{
-  width: 300px;
-  display: flex;
+  flex: 1 1 250px;
   padding: 16px;
 }
 .main_wrapper{
